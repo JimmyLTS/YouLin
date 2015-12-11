@@ -1,0 +1,21 @@
+[
+	{
+		"class": "Youlin0xVersion",
+		"name": "0.x",
+		"next": "init"
+	},
+    {
+        "class": "VersionScript",
+        "name": "1.0.0",
+        "next": "1.1.0"
+    },
+	{
+		"class": "YoulinOneOneZeroVersion",
+		"name": "1.1.0",
+		"next": "init"
+	},
+	{
+		"class": "YoulinInitVersion",
+		"name": "init"
+	}
+]

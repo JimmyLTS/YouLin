@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>YL9V9X796U.cn.youlin.youlin</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>YL9V9X796U.cn.youlin.youlin</string>
+	</array>
+</dict>
+</plist>
