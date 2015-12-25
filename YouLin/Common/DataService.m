@@ -13,7 +13,9 @@
 + (id)requestData:(NSString *)fileName
 {
     NSString *filePath = [[NSBundle mainBundle]pathForResource:fileName ofType:NULL];
+    
     NSData *data = [NSData dataWithContentsOfFile:filePath];
+    
     id jsonDic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:NULL];
     
     return jsonDic;

@@ -1,22 +1,25 @@
 //
-//  DiscoverViewController.m
+//  MessageCenterViewController.m
 //  YouLin
 //
-//  Created by Jimmy on 15/12/8.
+//  Created by Jimmy on 15/12/19.
 //  Copyright © 2015年 Jimmy. All rights reserved.
 //
 
-#import "DiscoverViewController.h"
+#import "MessageCenterViewController.h"
 
-@interface DiscoverViewController ()
+@interface MessageCenterViewController ()
 
 @end
 
-@implementation DiscoverViewController
+@implementation MessageCenterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"消息中心";
+    [self creatLeftBarButtonItem];
+    
 }
 
 - (void)didReceiveMemoryWarning {

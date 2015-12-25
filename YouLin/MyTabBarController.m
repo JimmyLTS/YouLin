@@ -82,26 +82,41 @@
             TabBarButton *tabBarButton = [[TabBarButton alloc] initWithFrame:tabBarButtonRect normalImageName:normalImagesArray[i] normalTitle:textArray[i] selectImageName:selectImagesArray[i] ];
             
             tabBarButton.tag = i;
+            tabBarButton.backgroundColor = [UIColor whiteColor];
             
             [tabBarButton addTarget:self action:@selector(tabBarButtonAction:) forControlEvents:UIControlEventTouchUpInside];
             
             [self.tabBar addSubview:tabBarButton];
+            
+            //将起始页面 TabBarButton 设为选中状态
+            if (i == 0) {
+                [tabBarButton setHighlighted:YES];
+            }
         }
         else {
             //发布话题按钮
-            UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-            button.frame = tabBarButtonRect;
             
-            UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(13, 5, imageWidth - 26, 39)];
-            imageView.image = [UIImage imageNamed:normalImagesArray[i]];
-            [button addSubview:imageView];
-            
-            [self.tabBar addSubview:button];
-            
+            [self _creatAddTopicButtonWithWidth:imageWidth frame:tabBarButtonRect imageName:normalImagesArray[i]];
         }
     }
     
+}
+
+- (void)_creatAddTopicButtonWithWidth:(CGFloat)imageWidth frame:(CGRect)tabBarButtonRect imageName:(NSString *)imageName {
     
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = tabBarButtonRect;
+    
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(13, 5, imageWidth - 26, 39)];
+    imageView.image = [UIImage imageNamed:imageName];
+    [button addSubview:imageView];
+    
+    button.backgroundColor = [UIColor whiteColor];
+    
+    
+    [self.tabBar addSubview:button];
+    
+
 }
 
 // TabBarButton 点击事件

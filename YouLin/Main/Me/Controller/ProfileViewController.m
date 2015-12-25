@@ -6,13 +6,13 @@
 //  Copyright © 2015年 Jimmy. All rights reserved.
 //
 
-#import "MeViewController.h"
+#import "ProfileViewController.h"
 
-@interface MeViewController ()
+@interface ProfileViewController ()
 
 @end
 
-@implementation MeViewController
+@implementation ProfileViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

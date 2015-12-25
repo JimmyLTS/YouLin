@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jWr-wa-S0H">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jWr-wa-S0H">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Base Navigation Controller-->
@@ -12,10 +13,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bad-Fx-UAW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <connections>
-                        <segue destination="fwh-nl-AxJ" kind="relationship" relationship="rootViewController" id="5xT-a5-bMp"/>
+                        <segue destination="osI-Kr-3Bn" kind="relationship" relationship="rootViewController" id="b6Q-xB-b7E"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1E2-rz-epg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -23,24 +23,121 @@
             <point key="canvasLocation" x="-358.39999999999998" y="289.68000000000001"/>
         </scene>
         <!--邻居-->
-        <scene sceneID="1Mg-L7-4Kh">
+        <scene sceneID="ucJ-jA-mAO">
             <objects>
-                <viewController id="fwh-nl-AxJ" customClass="NeighbourViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="s9M-k7-BJj"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ae1-tG-bWr"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="S2Q-d1-ifu">
+                <tableViewController id="osI-Kr-3Bn" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="ivs-9W-pz3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <sections>
+                            <tableViewSection id="JGZ-0t-PLu">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="50" id="GxX-mj-Fue">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GxX-mj-Fue" id="Lku-FZ-5QZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的小区邻居" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBT-mS-I7E">
+                                                    <rect key="frame" x="20" y="14" width="150" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="ic3-uO-c5H"/>
+                                                        <constraint firstAttribute="width" constant="150" id="l9V-oz-ksD"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="NBT-mS-I7E" firstAttribute="leading" secondItem="Lku-FZ-5QZ" secondAttribute="leadingMargin" constant="12" id="abx-w8-plr"/>
+                                                <constraint firstItem="NBT-mS-I7E" firstAttribute="top" secondItem="Lku-FZ-5QZ" secondAttribute="topMargin" constant="6" id="rIk-v9-FWL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="TW9-aM-aBl" kind="push" id="CBR-qI-cJk"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="50" id="za2-s2-Yh8">
+                                        <rect key="frame" x="0.0" y="149" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="za2-s2-Yh8" id="ZRv-IG-Gab">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的小区邻居" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfK-q1-QzO">
+                                                    <rect key="frame" x="20" y="14" width="120" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="120" id="DhT-c9-4Rz"/>
+                                                        <constraint firstAttribute="height" constant="20" id="LbX-Yj-tkf"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cfK-q1-QzO" firstAttribute="top" secondItem="ZRv-IG-Gab" secondAttribute="topMargin" constant="6" id="JoC-uz-BVI"/>
+                                                <constraint firstItem="cfK-q1-QzO" firstAttribute="leading" secondItem="ZRv-IG-Gab" secondAttribute="leadingMargin" constant="12" id="UnS-bk-BD9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Tie-pq-Kmr" kind="push" id="KFK-uA-vvF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="osI-Kr-3Bn" id="CDt-TY-VHQ"/>
+                            <outlet property="delegate" destination="osI-Kr-3Bn" id="Aa4-0s-mcu"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="邻居" id="NJf-Cl-lr5"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cHM-PY-V2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37" y="289"/>
+        </scene>
+        <!--我的群组-->
+        <scene sceneID="CxA-Nq-Y6F">
+            <objects>
+                <viewController id="Tie-pq-Kmr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jvc-eb-rTk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y6g-1J-g1H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZB5-Z2-3es">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="邻居" id="03s-07-kS2"/>
+                    <navigationItem key="navigationItem" title="我的群组" id="KdY-vp-LqH"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EB9-B4-ouT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cel-3y-afv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24" y="289"/>
+            <point key="canvasLocation" x="456" y="811"/>
+        </scene>
+        <!--小区成员-->
+        <scene sceneID="583-Kl-TeT">
+            <objects>
+                <viewController id="TW9-aM-aBl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t9B-Qi-1kD"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZSU-Pw-Qdg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V35-gD-r0N">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="小区成员" id="uKQ-oB-cW4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vQ2-PX-hKg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456" y="194"/>
         </scene>
     </scenes>
 </document>

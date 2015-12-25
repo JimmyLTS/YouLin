@@ -22,6 +22,10 @@
     self.navigationBar.titleTextAttributes = @{
                                                NSFontAttributeName:[UIFont systemFontOfSize:18 weight:-100]
                                                };
+    
+    self.navigationBar.backgroundColor = [UIColor whiteColor];
+    
+    self.navigationBar.translucent = NO;
 }
 
 - (void)didReceiveMemoryWarning {

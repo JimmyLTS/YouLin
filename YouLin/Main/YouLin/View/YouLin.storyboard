@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="g6c-w4-SZS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="g6c-w4-SZS">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -15,14 +15,14 @@
                         <animations/>
                     </navigationBar>
                     <connections>
-                        <segue destination="hGJ-FI-eFq" kind="relationship" relationship="rootViewController" id="2M2-QD-fuz"/>
+                        <segue destination="hGJ-FI-eFq" kind="relationship" relationship="rootViewController" id="nXL-1e-Iak"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SJM-np-Hg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-361.06666666666666" y="293.46666666666664"/>
         </scene>
-        <!--You Lin View Controller-->
+        <!--贺田尚城-->
         <scene sceneID="6Wj-d1-pDh">
             <objects>
                 <viewController id="hGJ-FI-eFq" customClass="YouLinViewController" sceneMemberID="viewController">
@@ -36,7 +36,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ixo-9B-WCo"/>
+                    <navigationItem key="navigationItem" title="贺田尚城" id="ixo-9B-WCo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="icE-Yk-SO9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

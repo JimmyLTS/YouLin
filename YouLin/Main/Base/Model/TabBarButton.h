@@ -15,8 +15,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame normalImageName:(NSString *)normalImageName  normalTitle:(NSString *)normalTitle selectImageName:(NSString *)selectImageName;
 
-//- (instancetype)initWithFrame:(CGRect)frame imageName:(NSString *)imgName  title:(NSString *)title;
-
 - (void)setNormalState;
 
 @end

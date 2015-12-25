@@ -7,7 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF69379B1C1C410D0081C2A6 /* DiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF69379A1C1C410D0081C2A6 /* DiscoverTableViewController.m */; };
+		BF6EE32E1C265BA800561CDA /* ChooseTopicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6EE32D1C265BA800561CDA /* ChooseTopicButton.m */; };
 		BF73A1A21C186E57006D8EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF73A1A01C186E57006D8EB2 /* Main.storyboard */; };
+		BF8A02F31C24E04F00142C46 /* MessageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8A02F21C24E04F00142C46 /* MessageCenterViewController.m */; };
+		BF9BB3E41C293EC200991772 /* MainCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BB3E31C293EC200991772 /* MainCollectionView.m */; };
+		BF9BB3E71C29467900991772 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BB3E61C29467900991772 /* QRCodeViewController.m */; };
+		BF9BB3EF1C29472D00991772 /* QRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BB3EA1C29472D00991772 /* QRItem.m */; };
+		BF9BB3F01C29472D00991772 /* QRMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BB3EC1C29472D00991772 /* QRMenu.m */; };
+		BF9BB3F11C29472D00991772 /* QRView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BB3EE1C29472D00991772 /* QRView.m */; };
+		BF9BB3F41C29476700991772 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BB3F31C29476700991772 /* WebViewController.m */; };
+		BF9BB3FD1C2947A200991772 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BB3F81C2947A200991772 /* MBProgressHUD+MJ.m */; };
+		BF9BB3FE1C2947A200991772 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF9BB3F91C2947A200991772 /* MBProgressHUD.bundle */; };
+		BF9BB3FF1C2947A200991772 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BB3FB1C2947A200991772 /* MBProgressHUD.m */; };
+		BF9BB4001C2947A200991772 /* qr_scan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9BB3FC1C2947A200991772 /* qr_scan_line@2x.png */; };
+		BFAD8BFD1C23874C00E12E45 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAD8BFA1C23874C00E12E45 /* BaseModel.m */; };
+		BFAD8BFE1C23874C00E12E45 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAD8BFC1C23874C00E12E45 /* TabBarButton.m */; };
 		BFBED96D1C16C750005BE304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBED96C1C16C750005BE304 /* main.m */; };
 		BFBED9701C16C750005BE304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBED96F1C16C750005BE304 /* AppDelegate.m */; };
 		BFBED9781C16C750005BE304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBED9771C16C750005BE304 /* Assets.xcassets */; };
@@ -58,14 +73,14 @@
 		BFBEDA161C16CF1D005BE304 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA151C16CF1D005BE304 /* BaseViewController.m */; };
 		BFBEDA191C16CF3A005BE304 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA181C16CF3A005BE304 /* BaseNavigationController.m */; };
 		BFBEDA2B1C16D32C005BE304 /* YouLinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA2A1C16D32C005BE304 /* YouLinViewController.m */; };
-		BFBEDA2E1C16D33E005BE304 /* NeighbourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA2D1C16D33E005BE304 /* NeighbourViewController.m */; };
-		BFBEDA311C16D347005BE304 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA301C16D347005BE304 /* MeViewController.m */; };
-		BFBEDA341C16D355005BE304 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA331C16D355005BE304 /* DiscoverViewController.m */; };
+		BFBEDA311C16D347005BE304 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA301C16D347005BE304 /* ProfileViewController.m */; };
 		BFBEDA371C16D7CD005BE304 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA361C16D7CD005BE304 /* MyTabBarController.m */; };
-		BFBEDA401C16D83E005BE304 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA391C16D83E005BE304 /* BaseModel.m */; };
 		BFBEDA411C16D83E005BE304 /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA3B1C16D83E005BE304 /* DataService.m */; };
-		BFBEDA421C16D83E005BE304 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA3D1C16D83E005BE304 /* TabBarButton.m */; };
 		BFBEDA431C16D83E005BE304 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBEDA3F1C16D83E005BE304 /* UIViewExt.m */; };
+		BFEB3B181C2A252200696A54 /* NeighbourTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB3B171C2A252200696A54 /* NeighbourTableViewController.m */; };
+		BFEB3B2E1C2A735200696A54 /* MainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB3B2D1C2A735200696A54 /* MainTableView.m */; };
+		BFEB3B311C2A7C4700696A54 /* UIView+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB3B301C2A7C4700696A54 /* UIView+UIViewController.m */; };
+		BFFB88E31C2594A10076F22C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFB88E21C2594A10076F22C /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +101,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF6937991C1C410D0081C2A6 /* DiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverTableViewController.h; sourceTree = "<group>"; };
+		BF69379A1C1C410D0081C2A6 /* DiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverTableViewController.m; sourceTree = "<group>"; };
+		BF6EE32C1C265BA800561CDA /* ChooseTopicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseTopicButton.h; path = ../../Base/Model/ChooseTopicButton.h; sourceTree = "<group>"; };
+		BF6EE32D1C265BA800561CDA /* ChooseTopicButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseTopicButton.m; path = ../../Base/Model/ChooseTopicButton.m; sourceTree = "<group>"; };
 		BF73A1A11C186E57006D8EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF8A02F11C24E04F00142C46 /* MessageCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCenterViewController.h; sourceTree = "<group>"; };
+		BF8A02F21C24E04F00142C46 /* MessageCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCenterViewController.m; sourceTree = "<group>"; };
+		BF9BB3E21C293EC200991772 /* MainCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionView.h; sourceTree = "<group>"; };
+		BF9BB3E31C293EC200991772 /* MainCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionView.m; sourceTree = "<group>"; };
+		BF9BB3E51C29467900991772 /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		BF9BB3E61C29467900991772 /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		BF9BB3E91C29472D00991772 /* QRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRItem.h; sourceTree = "<group>"; };
+		BF9BB3EA1C29472D00991772 /* QRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRItem.m; sourceTree = "<group>"; };
+		BF9BB3EB1C29472D00991772 /* QRMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRMenu.h; sourceTree = "<group>"; };
+		BF9BB3EC1C29472D00991772 /* QRMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRMenu.m; sourceTree = "<group>"; };
+		BF9BB3ED1C29472D00991772 /* QRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRView.h; sourceTree = "<group>"; };
+		BF9BB3EE1C29472D00991772 /* QRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRView.m; sourceTree = "<group>"; };
+		BF9BB3F21C29476700991772 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		BF9BB3F31C29476700991772 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		BF9BB3F71C2947A200991772 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		BF9BB3F81C2947A200991772 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		BF9BB3F91C2947A200991772 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		BF9BB3FA1C2947A200991772 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BF9BB3FB1C2947A200991772 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BF9BB3FC1C2947A200991772 /* qr_scan_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_scan_line@2x.png"; sourceTree = "<group>"; };
+		BFAD8BF91C23874C00E12E45 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		BFAD8BFA1C23874C00E12E45 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		BFAD8BFB1C23874C00E12E45 /* TabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
+		BFAD8BFC1C23874C00E12E45 /* TabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
 		BFBED9681C16C750005BE304 /* YouLin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouLin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBED96C1C16C750005BE304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFBED96E1C16C750005BE304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,24 +190,23 @@
 		BFBEDA181C16CF3A005BE304 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		BFBEDA291C16D32C005BE304 /* YouLinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouLinViewController.h; sourceTree = "<group>"; };
 		BFBEDA2A1C16D32C005BE304 /* YouLinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouLinViewController.m; sourceTree = "<group>"; };
-		BFBEDA2C1C16D33E005BE304 /* NeighbourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighbourViewController.h; sourceTree = "<group>"; };
-		BFBEDA2D1C16D33E005BE304 /* NeighbourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighbourViewController.m; sourceTree = "<group>"; };
-		BFBEDA2F1C16D347005BE304 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
-		BFBEDA301C16D347005BE304 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
-		BFBEDA321C16D355005BE304 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
-		BFBEDA331C16D355005BE304 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		BFBEDA2F1C16D347005BE304 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		BFBEDA301C16D347005BE304 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		BFBEDA351C16D7CD005BE304 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
 		BFBEDA361C16D7CD005BE304 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
-		BFBEDA381C16D83E005BE304 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		BFBEDA391C16D83E005BE304 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		BFBEDA3A1C16D83E005BE304 /* DataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
 		BFBEDA3B1C16D83E005BE304 /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
-		BFBEDA3C1C16D83E005BE304 /* TabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
-		BFBEDA3D1C16D83E005BE304 /* TabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
 		BFBEDA3E1C16D83E005BE304 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		BFBEDA3F1C16D83E005BE304 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		BFBEDA441C16D84E005BE304 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		BFBEDA451C16D859005BE304 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BFEB3B161C2A252200696A54 /* NeighbourTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighbourTableViewController.h; sourceTree = "<group>"; };
+		BFEB3B171C2A252200696A54 /* NeighbourTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighbourTableViewController.m; sourceTree = "<group>"; };
+		BFEB3B2C1C2A735200696A54 /* MainTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableView.h; sourceTree = "<group>"; };
+		BFEB3B2D1C2A735200696A54 /* MainTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableView.m; sourceTree = "<group>"; };
+		BFEB3B2F1C2A7C4700696A54 /* UIView+UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewController.h"; sourceTree = "<group>"; };
+		BFEB3B301C2A7C4700696A54 /* UIView+UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewController.m"; sourceTree = "<group>"; };
+		BFFB88E21C2594A10076F22C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +234,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF9BB3E81C29472D00991772 /* QRCustom */ = {
+			isa = PBXGroup;
+			children = (
+				BF9BB3E91C29472D00991772 /* QRItem.h */,
+				BF9BB3EA1C29472D00991772 /* QRItem.m */,
+				BF9BB3EB1C29472D00991772 /* QRMenu.h */,
+				BF9BB3EC1C29472D00991772 /* QRMenu.m */,
+				BF9BB3ED1C29472D00991772 /* QRView.h */,
+				BF9BB3EE1C29472D00991772 /* QRView.m */,
+			);
+			path = QRCustom;
+			sourceTree = "<group>";
+		};
+		BF9BB3F51C2947A200991772 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BF9BB3F61C2947A200991772 /* MBProgressHUD */,
+				BF9BB3FC1C2947A200991772 /* qr_scan_line@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BF9BB3F61C2947A200991772 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BF9BB3F71C2947A200991772 /* MBProgressHUD+MJ.h */,
+				BF9BB3F81C2947A200991772 /* MBProgressHUD+MJ.m */,
+				BF9BB3F91C2947A200991772 /* MBProgressHUD.bundle */,
+				BF9BB3FA1C2947A200991772 /* MBProgressHUD.h */,
+				BF9BB3FB1C2947A200991772 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		BFAD8BF81C23874C00E12E45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD8BF91C23874C00E12E45 /* BaseModel.h */,
+				BFAD8BFA1C23874C00E12E45 /* BaseModel.m */,
+				BFAD8BFB1C23874C00E12E45 /* TabBarButton.h */,
+				BFAD8BFC1C23874C00E12E45 /* TabBarButton.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BFBED95F1C16C750005BE304 = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				BFBED99F1C16C774005BE304 /* _CodeSignature */,
+				BFFB88E21C2594A10076F22C /* icon.png */,
 				BFBED9A11C16C774005BE304 /* AppIcon29x29.png */,
 				BFBED9A21C16C774005BE304 /* AppIcon29x29@2x.png */,
 				BFBED9A31C16C774005BE304 /* AppIcon29x29@2x~ipad.png */,
@@ -320,14 +408,12 @@
 		BFBED9EC1C16CAB0005BE304 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				BFBEDA381C16D83E005BE304 /* BaseModel.h */,
-				BFBEDA391C16D83E005BE304 /* BaseModel.m */,
 				BFBEDA3A1C16D83E005BE304 /* DataService.h */,
 				BFBEDA3B1C16D83E005BE304 /* DataService.m */,
-				BFBEDA3C1C16D83E005BE304 /* TabBarButton.h */,
-				BFBEDA3D1C16D83E005BE304 /* TabBarButton.m */,
 				BFBEDA3E1C16D83E005BE304 /* UIViewExt.h */,
 				BFBEDA3F1C16D83E005BE304 /* UIViewExt.m */,
+				BFEB3B2F1C2A7C4700696A54 /* UIView+UIViewController.h */,
+				BFEB3B301C2A7C4700696A54 /* UIView+UIViewController.m */,
 				BFBEDA441C16D84E005BE304 /* Common.h */,
 				BFBEDA451C16D859005BE304 /* PrefixHeader.pch */,
 			);
@@ -340,7 +426,7 @@
 				BFBEDA0E1C16CEFF005BE304 /* Base */,
 				BFBED9EE1C16CAB0005BE304 /* AddTopic */,
 				BFBED9EF1C16CAB0005BE304 /* Discover */,
-				BFBED9F31C16CAB0005BE304 /* Me */,
+				BFBED9F31C16CAB0005BE304 /* Profile */,
 				BFBED9F71C16CAB0005BE304 /* Neighbour */,
 				BFBED9FB1C16CAB0005BE304 /* YouLin */,
 			);
@@ -370,8 +456,8 @@
 		BFBED9F01C16CAB0005BE304 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BFBEDA321C16D355005BE304 /* DiscoverViewController.h */,
-				BFBEDA331C16D355005BE304 /* DiscoverViewController.m */,
+				BF6937991C1C410D0081C2A6 /* DiscoverTableViewController.h */,
+				BF69379A1C1C410D0081C2A6 /* DiscoverTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -391,21 +477,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		BFBED9F31C16CAB0005BE304 /* Me */ = {
+		BFBED9F31C16CAB0005BE304 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 				BFBED9F41C16CAB0005BE304 /* Controller */,
 				BFBED9F51C16CAB0005BE304 /* Model */,
 				BFBED9F61C16CAB0005BE304 /* View */,
 			);
+			name = Profile;
 			path = Me;
 			sourceTree = "<group>";
 		};
 		BFBED9F41C16CAB0005BE304 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BFBEDA2F1C16D347005BE304 /* MeViewController.h */,
-				BFBEDA301C16D347005BE304 /* MeViewController.m */,
+				BFBEDA2F1C16D347005BE304 /* ProfileViewController.h */,
+				BFBEDA301C16D347005BE304 /* ProfileViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -438,8 +525,8 @@
 		BFBED9F81C16CAB0005BE304 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BFBEDA2C1C16D33E005BE304 /* NeighbourViewController.h */,
-				BFBEDA2D1C16D33E005BE304 /* NeighbourViewController.m */,
+				BFEB3B161C2A252200696A54 /* NeighbourTableViewController.h */,
+				BFEB3B171C2A252200696A54 /* NeighbourTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -474,6 +561,12 @@
 			children = (
 				BFBEDA291C16D32C005BE304 /* YouLinViewController.h */,
 				BFBEDA2A1C16D32C005BE304 /* YouLinViewController.m */,
+				BF8A02F11C24E04F00142C46 /* MessageCenterViewController.h */,
+				BF8A02F21C24E04F00142C46 /* MessageCenterViewController.m */,
+				BF9BB3E51C29467900991772 /* QRCodeViewController.h */,
+				BF9BB3E61C29467900991772 /* QRCodeViewController.m */,
+				BF9BB3F21C29476700991772 /* WebViewController.h */,
+				BF9BB3F31C29476700991772 /* WebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -489,6 +582,14 @@
 			isa = PBXGroup;
 			children = (
 				BFBEDA0C1C16CD88005BE304 /* YouLin.storyboard */,
+				BF6EE32C1C265BA800561CDA /* ChooseTopicButton.h */,
+				BF6EE32D1C265BA800561CDA /* ChooseTopicButton.m */,
+				BF9BB3E21C293EC200991772 /* MainCollectionView.h */,
+				BF9BB3E31C293EC200991772 /* MainCollectionView.m */,
+				BFEB3B2C1C2A735200696A54 /* MainTableView.h */,
+				BFEB3B2D1C2A735200696A54 /* MainTableView.m */,
+				BF9BB3F51C2947A200991772 /* Resource */,
+				BF9BB3E81C29472D00991772 /* QRCustom */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -518,8 +619,7 @@
 			isa = PBXGroup;
 			children = (
 				BFBEDA0F1C16CEFF005BE304 /* Controller */,
-				BFBEDA101C16CEFF005BE304 /* Model */,
-				BFBEDA111C16CEFF005BE304 /* View */,
+				BFAD8BF81C23874C00E12E45 /* Model */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -533,20 +633,6 @@
 				BFBEDA181C16CF3A005BE304 /* BaseNavigationController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		BFBEDA101C16CEFF005BE304 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BFBEDA111C16CEFF005BE304 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -616,7 +702,6 @@
 				TargetAttributes = {
 					BFBED9671C16C750005BE304 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 455YG3QCDW;
 					};
 					BFBED9801C16C750005BE304 = {
 						CreatedOnToolsVersion = 7.1;
@@ -666,6 +751,7 @@
 				BFBED97B1C16C750005BE304 /* LaunchScreen.storyboard in Resources */,
 				BFBED9CE1C16C774005BE304 /* AppIcon40x40@2x~ipad.png in Resources */,
 				BFBED9781C16C750005BE304 /* Assets.xcassets in Resources */,
+				BFFB88E31C2594A10076F22C /* icon.png in Resources */,
 				BFBED9C81C16C774005BE304 /* AppIcon29x29.png in Resources */,
 				BFBED9DE1C16C774005BE304 /* config.zip in Resources */,
 				BFBED9CC1C16C774005BE304 /* AppIcon29x29~ipad.png in Resources */,
@@ -695,6 +781,8 @@
 				BFBED9E81C16C774005BE304 /* Youlin.supp in Resources */,
 				BFBED9E91C16C774005BE304 /* versionlist.json in Resources */,
 				BFBED9EA1C16C774005BE304 /* WeiboSDK.bundle in Resources */,
+				BF9BB4001C2947A200991772 /* qr_scan_line@2x.png in Resources */,
+				BF9BB3FE1C2947A200991772 /* MBProgressHUD.bundle in Resources */,
 				BFBED9C71C16C774005BE304 /* CodeResources in Resources */,
 				BFBED9D81C16C774005BE304 /* AppIcon72x72~ipad.png in Resources */,
 				BFBED9CF1C16C774005BE304 /* AppIcon40x40@3x.png in Resources */,
@@ -723,18 +811,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9BB3E41C293EC200991772 /* MainCollectionView.m in Sources */,
+				BF9BB3F41C29476700991772 /* WebViewController.m in Sources */,
+				BFEB3B2E1C2A735200696A54 /* MainTableView.m in Sources */,
+				BF9BB3FF1C2947A200991772 /* MBProgressHUD.m in Sources */,
+				BFEB3B181C2A252200696A54 /* NeighbourTableViewController.m in Sources */,
 				BFBEDA431C16D83E005BE304 /* UIViewExt.m in Sources */,
-				BFBEDA341C16D355005BE304 /* DiscoverViewController.m in Sources */,
 				BFBEDA161C16CF1D005BE304 /* BaseViewController.m in Sources */,
+				BF9BB3EF1C29472D00991772 /* QRItem.m in Sources */,
+				BFEB3B311C2A7C4700696A54 /* UIView+UIViewController.m in Sources */,
+				BF9BB3F01C29472D00991772 /* QRMenu.m in Sources */,
 				BFBEDA411C16D83E005BE304 /* DataService.m in Sources */,
-				BFBEDA401C16D83E005BE304 /* BaseModel.m in Sources */,
 				BFBEDA371C16D7CD005BE304 /* MyTabBarController.m in Sources */,
+				BF69379B1C1C410D0081C2A6 /* DiscoverTableViewController.m in Sources */,
 				BFBEDA2B1C16D32C005BE304 /* YouLinViewController.m in Sources */,
+				BF9BB3F11C29472D00991772 /* QRView.m in Sources */,
+				BFAD8BFD1C23874C00E12E45 /* BaseModel.m in Sources */,
 				BFBED9701C16C750005BE304 /* AppDelegate.m in Sources */,
-				BFBEDA2E1C16D33E005BE304 /* NeighbourViewController.m in Sources */,
+				BF8A02F31C24E04F00142C46 /* MessageCenterViewController.m in Sources */,
+				BF6EE32E1C265BA800561CDA /* ChooseTopicButton.m in Sources */,
+				BF9BB3FD1C2947A200991772 /* MBProgressHUD+MJ.m in Sources */,
 				BFBED96D1C16C750005BE304 /* main.m in Sources */,
-				BFBEDA421C16D83E005BE304 /* TabBarButton.m in Sources */,
-				BFBEDA311C16D347005BE304 /* MeViewController.m in Sources */,
+				BFAD8BFE1C23874C00E12E45 /* TabBarButton.m in Sources */,
+				BFBEDA311C16D347005BE304 /* ProfileViewController.m in Sources */,
+				BF9BB3E71C29467900991772 /* QRCodeViewController.m in Sources */,
 				BFBEDA191C16CF3A005BE304 /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -884,13 +984,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YouLin/Common/PrefixHeader.pch";
 				INFOPLIST_FILE = YouLin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JimmyLTS.YouLin;
+				PRODUCT_BUNDLE_IDENTIFIER = "JimmyLTS.Jimmy--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos9.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -898,13 +1003,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YouLin/Common/PrefixHeader.pch";
 				INFOPLIST_FILE = YouLin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JimmyLTS.YouLin;
+				PRODUCT_BUNDLE_IDENTIFIER = "JimmyLTS.Jimmy--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos9.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
